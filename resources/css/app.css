@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .tooltip {
+        @apply absolute z-10 px-2 py-1 inline-block text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm dark:bg-gray-700 opacity-100 transition duration-200 ease-in-out;
+    }
+}
